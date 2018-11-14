@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="lblNombre">Escriba ahí su nombre</string>
+    <string name="txtApellidos">Apellidos</string>
+    <string name="lblApellidos">Escriba ahí sus apellidos</string>
+    <string name="txtEdad">Edad</string>
+    <string name="btnHombre">Hombre</string>
+    <string name="btnMujer">Mujer</string>
+    <string name="txtEstado">Estado civil</string>
+    <string name="txtHijos">Tine hijos</string>
+    <string name="btnEjemplo">Generar</string>
+    <string name="switchSi">Sí</string>
+    <string name="switchNo">No</string>
+
+    </resources>

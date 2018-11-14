@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">personal information</string>
+    <string name="txtNombre">Name</string>
+    <string name="lblNombre">Write your name there</string>
+    <string name="txtApellidos">Surnames</string>
+    <string name="lblApellidos">Write your surnames there</string>
+    <string name="txtEdad">Age</string>
+    <string name="btnHombre">Man</string>
+    <string name="btnMujer">Woman</string>
+    <string name="txtEstado">Civil status</string>
+    <string name="btnEjemplo">Generar</string>
+    <string name="txtHijos" translatable="false">He has children</string>
+    <string name="Separado"> Separated</string>
+    <string name="Casado"> Married</string>
+    <string name="Viudo"> Widowee</string>
+    <string name="Otro">Other</string>
+    <string name="switchSi">Yes</string>
+    <string name="switchNo">No</string>
+</resources>

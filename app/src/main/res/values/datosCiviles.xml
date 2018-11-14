@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Casado">Casado</string>
+    <string name="Separado">Separado</string>
+    <string name="Viudo">Viudo</string>
+    <string name="Otro">Otro</string>
+
+    <string-array name="datosCiviles">
+        <item>@string/Casado</item>
+        <item>@string/Separado</item>
+        <item>@string/Viudo</item>
+        <item>@string/Otro</item>
+    </string-array>
+</resources>
