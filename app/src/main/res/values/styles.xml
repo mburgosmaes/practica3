@@ -44,13 +44,28 @@
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginLeft">5dp</item>
         <item name="android:textColor">@color/blanco</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
     </style>
-
+    <style name="layout2"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
     <style name="botones"
         parent="@android:style/TextAppearance.Medium">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+    <style name="botones2"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">80dp</item>
         <item name="android:textColor">@color/blanco</item>
     </style>

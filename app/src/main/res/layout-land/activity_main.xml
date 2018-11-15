@@ -8,153 +8,100 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp">
+        style="@style/layout2">
 
         <TextView
             android:id="@+id/txtNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/Azul"
-            android:layout_weight="1"
-            android:text="@string/txtApellidos"
-            android:textSize="18sp" />
+            style="@style/txt"
+            android:text="@string/txtNombre"
+            app:fontFamily="@font/aclonica" />
 
         <EditText
             android:id="@+id/lblNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/lblApellidos"
-            android:inputType="textCapWords|textPersonName"
-            android:textSize="12sp" />
+            style="@style/editxt"
+            android:hint="@string/lblNombre"
+            android:textColor="@color/blanco" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp">
+        style="@style/layout2">
 
         <TextView
             android:id="@+id/txtApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txtNombre"
-            android:textColor="@color/Azul"
-            android:textSize="18sp" />
+            style="@style/txt"
+            android:text="@string/txtApellidos"
+            app:fontFamily="@font/aclonica" />
 
         <EditText
             android:id="@+id/lblApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="11"
-            android:hint="@string/lblNombre"
-            android:inputType="textCapWords|textPersonName"
-            android:textSize="12sp" />
+            style="@style/editxt"
+            android:hint="@string/lblApellidos"
+            android:textColor="@color/blanco" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp">
+        style="@style/layout2">
 
         <TextView
             android:id="@+id/txtEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingLeft="0dp"
+            style="@style/txt"
             android:text="@string/txtEdad"
-            android:textColor="@color/Azul"
-            android:textSize="18sp" />
+            app:fontFamily="@font/aclonica" />
 
         <EditText
-            android:id="@+id/editText3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="100dp"
-            android:ems="11"
-            android:inputType="number" />
+            android:id="@+id/lblEdad"
+            style="@style/editxt"
+            android:inputType="number"
+            android:textColor="@color/blanco" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout2">
 
         <RadioGroup
+            android:id="@+id/btngrup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
             android:paddingLeft="0dp">
 
             <RadioButton
                 android:id="@+id/btnHombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/botones2"
                 android:text="@string/btnHombre" />
 
             <RadioButton
                 android:id="@+id/btnMujer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/botones2"
                 android:text="@string/btnMujer" />
 
         </RadioGroup>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp">
+        style="@style/layout2">
 
         <TextView
             android:id="@+id/txtEstado"
-            android:layout_width="194dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textColor="@color/Azul"
+            style="@style/txt"
             android:text="@string/txtEstado"
-            android:textSize="18sp" />
+            app:fontFamily="@font/aclonica" />
 
         <Spinner
             android:id="@+id/lista"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:orientation="horizontal">
+        style="@style/layout2">
 
         <TextView
             android:id="@+id/txtHijos"
-            android:layout_width="194dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/txt"
             android:text="@string/txtHijos"
-            android:textColor="@color/Azul"
-            android:textSize="18sp" />
+            app:fontFamily="@font/aclonica" />
 
         <Switch
             android:id="@+id/switchHijo"
@@ -168,32 +115,24 @@
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="5dp"
-        android:orientation="horizontal">
+        style="@style/layout2">
 
         <Button
+            style="@style/botones2"
             android:id="@+id/btnEjemplo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/btnEjemplo" />
 
         <ImageButton
+            style="@style/botones2"
             android:id="@+id/btnBorrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_weight="1"
             app:srcCompat="@android:drawable/ic_menu_delete" />
-
     </LinearLayout>
 
     <TextView
+        style="@style/txt"
         android:id="@+id/txtInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        />
 
 </LinearLayout>

@@ -17,10 +17,10 @@
             app:fontFamily="@font/aclonica" />
 
         <EditText
-            style="@style/editxt"
             android:id="@+id/lblNombre"
+            style="@style/editxt"
             android:hint="@string/lblNombre"
-            />
+            android:textColor="@color/blanco" />
 
     </LinearLayout>
 
@@ -34,10 +34,10 @@
             app:fontFamily="@font/aclonica" />
 
         <EditText
-            style="@style/editxt"
             android:id="@+id/lblApellidos"
+            style="@style/editxt"
             android:hint="@string/lblApellidos"
-            />
+            android:textColor="@color/blanco" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,7 +52,8 @@
         <EditText
             android:id="@+id/lblEdad"
             style="@style/editxt"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textColor="@color/blanco" />
     </LinearLayout>
 
     <LinearLayout
