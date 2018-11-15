@@ -11,9 +11,10 @@
          style="@style/layout">
 
         <TextView
-            style="@style/txt"
             android:id="@+id/txtNombre"
-            android:text="@string/txtNombre"/>
+            style="@style/txt"
+            android:text="@string/txtNombre"
+            app:fontFamily="@font/aclonica" />
 
         <EditText
             style="@style/editxt"
@@ -27,10 +28,10 @@
         style="@style/layout">
 
         <TextView
-            style="@style/txt"
             android:id="@+id/txtApellidos"
+            style="@style/txt"
             android:text="@string/txtApellidos"
-            />
+            app:fontFamily="@font/aclonica" />
 
         <EditText
             style="@style/editxt"
@@ -43,10 +44,10 @@
         style="@style/layout">
 
         <TextView
-            style="@style/txt"
             android:id="@+id/txtEdad"
+            style="@style/txt"
             android:text="@string/txtEdad"
-             />
+            app:fontFamily="@font/aclonica" />
 
         <EditText
             android:id="@+id/lblEdad"
@@ -65,16 +66,12 @@
 
             <RadioButton
                 android:id="@+id/btnHombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/botones"
                 android:text="@string/btnHombre" />
 
             <RadioButton
                 android:id="@+id/btnMujer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/botones"
                 android:text="@string/btnMujer" />
 
         </RadioGroup>
@@ -84,10 +81,10 @@
         style="@style/layout">
 
         <TextView
-            style="@style/txt"
             android:id="@+id/txtEstado"
+            style="@style/txt"
             android:text="@string/txtEstado"
-             />
+            app:fontFamily="@font/aclonica" />
 
         <Spinner
             android:id="@+id/lista"
@@ -100,10 +97,10 @@
         style="@style/layout">
 
         <TextView
-            style="@style/txt"
             android:id="@+id/txtHijos"
+            style="@style/txt"
             android:text="@string/txtHijos"
-           />
+            app:fontFamily="@font/aclonica" />
 
         <Switch
             android:id="@+id/switchHijo"

@@ -4,5 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="Azul">#33d1ff</color>
-    <color name="Celeste">#C3F1FF</color>
+    <color name="Celeste">#c3f1ff</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#fff</color>
 </resources>
